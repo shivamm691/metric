@@ -9,16 +9,14 @@ _POSTMAN or ANY OTHER API testing Tool_
 
     **using docker imagefile**
 
-   -  
-    1. use flowing [link](https://hub.docker.com/repository/docker/shivamm691/metric) to accsee shivamm691/metric imgae.
+   - use fllowing  [metric](https://hub.docker.com/repository/docker/shivamm691/metric) to accsee shivamm691/metric imgae.
 
-     2.pull request to have a local copy of docker image or 
-     [download](https://drive.google.com/drive/folders/1jvX93SPsvDHVItQue2y9wxbOGjDWpkBL) 
+     pull request to have a local copy of docker image or [download](https://drive.google.com/drive/folders/1jvX93SPsvDHVItQue2y9wxbOGjDWpkBL) 
       
-      2.start docker 
+    start docker 
 
      
-      3. use command to load image"docker image load <metric.tar"  to run docker image 
+    use command to load image"docker image load <metric.tar"  to run docker image 
      
      ### use commad 
               `docker run -p8086:8086 metriccollector`
@@ -28,20 +26,21 @@ _POSTMAN or ANY OTHER API testing Tool_
 
 
 # Using spring tool suite  or any other ide(with spring tools support):
-    1> download or clone files from git https://github.com/shivamm691/metric) to your local 
-      repo or dir 
+    
+download or clone files from [git](https://github.com/shivamm691/metric) to your local repo or dir 
 
-      2>install jdk8 or above in your system 
       
-      3> open all file in ide 
+    1>install jdk8 or above in your system 
       
-      4> slect name of jrk file in target dir 
+    2> open all file in ide 
       
-      5> open cmd/gitbash  to the current dir
+    3> slect name of jrk file in target dir 
       
-      6>use command "java -jar <jar file name> " in cmd
+    4> open cmd/gitbash  to the current dir
+
+    5>use command "java -jar <jar file name> " in cmd
       
-      7>open postmen to check GET AND POST requset
+    6>open postmen to check GET AND POST requset
       
       
       
