@@ -1,51 +1,38 @@
-# metric
-SRE Assignment - 
+# System requirements:-
+JDK 8 or above.
+
+POSTMAN or ANY OTHER API testing Tool.
 
 
-System requirements:-
-      JDK 8 or above
-      POSTMAN or ANY OTHER API testing Tool
+# Steps of Runing the server:
 
+  ## using docker imagefile:
 
-
-Steps of Runing the server:
-    using docker imagefile:
-    step 1- 
-   1 use flowing link https://hub.docker.com/repository/docker/shivamm691/metric to accsee shivamm691/metric  imgae 
-   2.pull request to have a local copy of docker image
-   
-   or 
-   1. download metric.tar file from https://drive.google.com/drive/folders/1jvX93SPsvDHVItQue2y9wxbOGjDWpkBL?usp=sharing
-   2.start docker 
-   
-    3. use command to load image"docker image load <metric.tar"
-   
-      to run docker image 
-      use commad 
-       --> "docker run -p8086:8086 metriccollector "
-   
+   - steps 
+      1. use flowing [link](https://hub.docker.com/repository/docker/shivamm691/metric to accsee shivamm691/metric) imgae 
+      2.pull request to have a local copy of docker image
+      
+      1. download [metric.tar](https://drive.google.com/drive/folders/1jvX93SPsvDHVItQue2y9wxbOGjDWpkBL?usp=sharing)
+      
+      2.start docker 
+     
+      3. use command to load image"docker image load <metric.tar"  to run docker image 
+     
+     ### use commad 
+              `docker run -p8086:8086 metriccollector`
+      
   
    
 
 
-
-
-
-
-
-    using spring tool suite  or any other ide(with spring tools support):
+#Using spring tool suite  or any other ide(with spring tools support):
       1>download or clone files from https://github.com/shivamm691/metric 
       to your local repo or dir 
-      
       2>install jdk8 or above in your system 
-       
       3> open all file in ide 
-      
       4> slect name of jrk file in target dir 
       5 open cmd/gitbash  to the current dir
-      
       6>use command "java -jar <jar file name> " in cmd
-      
       7>open postmen to check GET AND POST requset
       
       
@@ -57,8 +44,7 @@ Steps of Runing the server:
 
 
 
-
-
+#
 
 exmaple port : 8086
 
