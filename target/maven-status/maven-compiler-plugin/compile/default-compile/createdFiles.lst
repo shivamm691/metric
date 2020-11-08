@@ -1,0 +1,4 @@
+com\metricCollector\MeticController.class
+com\metricCollector\MetricCollectorApplication.class
+com\metricCollector\metricRepo.class
+com\metricCollector\metric.class
